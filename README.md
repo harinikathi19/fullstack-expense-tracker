@@ -1,112 +1,88 @@
-Full-Stack Expense Tracker with Budget Management
+💰 Full-Stack Expense Tracker with Budget Management
 
-A modern, full-stack expense tracking platform with authentication and real-time analytics. Built with React, Node.js, and PostgreSQL.
+A modern full-stack expense tracking platform with authentication and real-time analytics. Built with React, Node.js, and PostgreSQL.
 
-Features
-
-Authentication
+🚀 Features
+🔐 Authentication
 Secure user registration with username, email, and password
 User login with username and password
 Google OAuth integration
 JWT-based authentication
 Persistent session management
-
-Expense Tracking
+💸 Expense Tracking
 Create and manage expense categories
 Add transactions with amounts and categories
 View transactions by category
 Filter transactions by date range
 Real-time expense statistics
 Daily average calculations
-
-Modern UI UX
+🎨 Modern UI/UX
 Dark theme with violet accents
 Responsive design for all screen sizes
 Interactive data visualizations
 Smooth animations and transitions
 Loading states and skeletons
 Clean and intuitive interface
-
-Tech Stack
-
-Frontend
+🛠️ Tech Stack
+🌐 Frontend
 React.js with hooks
 Material UI components
 React Router for navigation
 Axios for API requests
 Modern ES6 JavaScript
 Responsive CSS with MUI styling
-
-Backend
+⚙️ Backend
 Node.js and Express
 PostgreSQL database
 Sequelize ORM
 JWT authentication
 Google OAuth2
 RESTful API design
-
-DevOps
+🐳 DevOps
 Docker containerization
 Docker Compose for services
 Environment configuration
 Persistent data storage
-
-Prerequisites
-
+📋 Prerequisites
 Docker and Docker Compose
 Node.js for local development
-Google OAuth credentials for authentication
-PostgreSQL local or containerized
-
-Setup
-
+Google OAuth credentials
+PostgreSQL (local or containerized)
+⚙️ Setup
 Clone the repository
 Configure environment variables
 
-backend env file
+backend/.env
 
-GOOGLE_CLIENT_ID your-google-client-id
-GOOGLE_CLIENT_SECRET your-google-client-secret
-JWT_SECRET your-jwt-secret
-DATABASE_URL postgresql://postgres:postgres@db:5432/budget_buddy
-
-Running the Application
-
+GOOGLE_CLIENT_ID=your-google-client-id  
+GOOGLE_CLIENT_SECRET=your-google-client-secret  
+JWT_SECRET=your-jwt-secret  
+DATABASE_URL=postgresql://postgres:postgres@db:5432/budget_buddy  
+▶️ Running the Application
 Build and start the containers
-
 docker-compose up --build
-
 Access the application
-
-Frontend http://localhost:3000
-
-Backend API http://localhost:5000
-
-Database localhost 5432
-
-API Endpoints
-
-Authentication
-POST /api/auth/register Register new user
-POST /api/auth/login User login
-GET /api/auth/google Google OAuth login
-GET /api/auth/google/callback OAuth callback
-GET /api/protected Verify authentication
-
-Transactions
-GET /api/sections/:section/transactions Get transactions by category
-POST /api/transactions Create new transaction
-GET /api/transactions Get all transactions
-GET /api/transactions/stats Get transaction statistics
-
-Categories
-GET /api/sections Get all categories
-POST /api/sections Create new category
-PUT /api/sections/:id Update category
-DELETE /api/sections/:id Delete category
-
-Security Features
-
+🌐 Frontend: http://localhost:3000
+⚙️ Backend API: http://localhost:5000
+🗄️ Database: localhost:5432
+🔗 API Endpoints
+🔐 Authentication
+POST /api/auth/register
+POST /api/auth/login
+GET /api/auth/google
+GET /api/auth/google/callback
+GET /api/protected
+💸 Transactions
+GET /api/sections/:section/transactions
+POST /api/transactions
+GET /api/transactions
+GET /api/transactions/stats
+📂 Categories
+GET /api/sections
+POST /api/sections
+PUT /api/sections/:id
+DELETE /api/sections/:id
+🔒 Security Features
 Secure password hashing with bcrypt
 JWT-based authentication
 Protected API routes
@@ -115,29 +91,19 @@ Environment variable protection
 SQL injection prevention
 XSS protection
 Rate limiting
-
-Development
-
-Frontend Development
-
-cd frontend
-npm install
-npm start
-
-Backend Development
-
-cd backend
-npm install
-npm run dev
-
-Database
-
+💻 Development
+🌐 Frontend
+cd frontend  
+npm install  
+npm start  
+⚙️ Backend
+cd backend  
+npm install  
+npm run dev  
+🗄️ Database
 PostgreSQL with Sequelize ORM
 Automatic migrations
 Data persistence
-Default credentials
-Username postgres
-Password postgres
-Database budget_buddy
 
-reate a Pull Request
+
+ate a Pull Request
