@@ -27,7 +27,9 @@ A scalable full-stack expense tracking system that enables users to manage, cate
 ⚙️ Setup and Run
 
 git clone link
+
 cd fullstack-expense-tracker
+
 docker-compose up --build
 
 
