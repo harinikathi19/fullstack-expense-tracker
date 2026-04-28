@@ -1,25 +1,56 @@
 💰 Full-Stack Expense Tracker with Budget Management
 
-A full-stack expense tracking platform to manage and analyze personal finances with real-time insights. Built using React, Node.js, and PostgreSQL.
+A scalable full-stack expense tracking system that enables users to manage, categorize, and analyze personal financial data with real-time insights. Built using modern web technologies to ensure performance, security, and a seamless user experience.
 
-🚀 Features
-🔐 User authentication with JWT and Google OAuth
-💸 Add, categorize, and track expenses
-📊 Real-time analytics and statistics
-📅 Date-based filtering
-🎨 Responsive and modern UI
+
+🚀 Key Features
+
+🔐 Secure authentication using JWT and Google OAuth
+💸 Add, edit, and categorize expenses
+📊 Real-time analytics and spending insights
+📅 Filter transactions by date and category
+🎨 Responsive and intuitive user interface
+⚡ Fast and scalable RESTful API
+
+
+
 🛠️ Tech Stack
-🌐 Frontend: React, Material UI
-⚙️ Backend: Node.js, Express
-🗄️ Database: PostgreSQL
-🔐 Auth: JWT, Google OAuth
-🐳 DevOps: Docker
-▶️ Run Locally
+
+🌐 Frontend React.js, Material UI
+⚙️ Backend Node.js, Express.js
+🗄️ Database PostgreSQL, Sequelize ORM
+🔐 Authentication JWT, Google OAuth
+🐳 DevOps Docker, Docker Compose
+
+
+
+⚙️ Setup and Run
+
+git clone link
+cd fullstack-expense-tracker
 docker-compose up --build
-Frontend: http://localhost:3000
-Backend: http://localhost:5000
+
+
+
+🌍 Access
+
+Frontend [http://localhost:3000](http://localhost:3000)
+Backend API [http://localhost:5000](http://localhost:5000)
+
+
 
 🔒 Security
-JWT authentication
-Password hashing
-Protected APIs
+
+Password hashing using bcrypt
+JWT-based authentication
+Protected API routes
+Input validation and secure configurations
+
+
+
+📈 Highlights
+
+Demonstrates full-stack development skills
+Implements secure authentication and API design
+Focuses on clean UI UX and scalable architecture
+
